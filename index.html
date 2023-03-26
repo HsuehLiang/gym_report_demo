@@ -4,11 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <title>新聞報導</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            color: black;
+            font-family: 微軟正黑體;
+        }
+
+        .sub-title {
+            color: blue;
+            font-size: 24px;
+            font-family: 標楷體;
+            font-weight: 500;
+        }
+
+        .title {
+            border-radius: 4px;
+            background-color: coral;
+            margin: 6px;
+            text-align: center;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <!-- 註解區 -->
-    <h1>（中央社記者沈佩瑤台北14日電）科技日新月異，就算宅在家，手機也能化身健身教練。衛福部國健署、國科會等跨部會推廣運動科技，今天下午發表首年成果會，現場還提供互動體驗，感受科技如何讓運動融入生活。
+    <h1 style="font-family: 標楷體;">
+        （中央社記者沈佩瑤台北14日電）科技日新月異，就算宅在家，手機也能化身健身教練。衛福部國健署、國科會等跨部會推廣運動科技，今天下午發表首年成果會，現場還提供互動體驗，感受科技如何讓運動融入生活。
     </h1>
     <p>
         鑑於科技與運動加乘，行政院制定「<u><b>台灣運動x科技行動計畫</b></u>」，並由衛生福利部國民健康署、國科會、數位發展部等跨部會合作，自111年至115年期間執行運動科技應用與產業發展專案管理計畫，今天下午舉行首年成果發表會。
@@ -17,14 +43,14 @@
         <em>衛福部常務次長周志浩致詞指出，計畫主要目的除推展運動科技運用，同時發展相關產業，大家都知道健康很重要，也知道要活就要動，運動才會健康，卻有100種不運動的理由，例如擔心運動傷害、不知道怎麼運動等。</em>
     </p>
     <hr>
-    <h2>小腿肌力測試</h2>
+    <div class="sub-title">小腿肌力測試</div>
     <ul>
         <li>單腿站立，可以單手扶牆保持平衡</li>
         <li>繃緊核心維持張力，抬起腳後跟，用前腳掌蹠骨部位著地</li>
         <li>回到起始位置，並重複動作，直到沒力</li>
     </ul>
     <br>
-    <h2>小腿肌肉訓練方式1：站姿啞鈴提踵</h2>
+    <div class="sub-title">小腿肌肉訓練方式1：站姿啞鈴提踵</div>
     <ol>
         <li>單腳站立，可以單手扶牆保持平衡</li>
         <li>持啞鈴的手自然垂放、不聳肩</li>
@@ -35,7 +61,7 @@
     <img src="images/photo_01.avif" width="31%">
     <img src="images/photo_02.avif" width="31%">
     <img src="images/photo_03.avif" width="31%">
-    <h2>&spades;&nbsp;好文章聯結</h2>
+    <div class="sub-title title">&spades;&nbsp;好文章聯結</div>
     <ul>
         <li>
             <a href="https://www.cosmopolitan.com/tw/beauty/fitness/g37782541/high-knees-intro/" target="_blank">
@@ -64,5 +90,31 @@
     <h1>BMI計算機</h1>
 </a>
 </form>
+<table style="border: 3px black solid;" border="1" width="500">
+    <tr style="background-color: blanchedalmond;">
+        <th>年齡</th>
+        <th>每分鐘燃脂心率</th>
+    </tr>
+    <tr>
+        <td>18-20</td>
+        <td>140</td>
+    </tr>
+    <tr>
+        <td>21-25</td>
+        <td>136-139</td>
+    </tr>
+    <tr>
+        <td>26-30</td>
+        <td>133-136</td>
+    </tr>
+    <tr>
+        <td>31-35</td>
+        <td>129-132</td>
+    </tr>
+    <tr>
+        <td>36-40</td>
+        <td>126-129</td>
+    </tr>
+</table>
 
 </html>
